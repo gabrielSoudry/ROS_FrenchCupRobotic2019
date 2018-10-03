@@ -1,0 +1,11 @@
+[31m[1mCMake Error[0m at /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/src/location_monitor/CMakeLists.txt:147 (add_executable):
+  Cannot find source file:
+
+    src/location.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: location
+CMake Error: Cannot determine link language for target "location".

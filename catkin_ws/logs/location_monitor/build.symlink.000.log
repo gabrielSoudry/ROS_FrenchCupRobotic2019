@@ -1,0 +1,4 @@
+Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/share/location_monitor/cmake/location_monitorConfig.cmake
+Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/share/location_monitor/cmake/location_monitorConfig-version.cmake
+Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/lib/pkgconfig/location_monitor.pc
+Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/lib/location_monitor/location

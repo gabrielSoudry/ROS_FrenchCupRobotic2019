@@ -1,0 +1,15 @@
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_AddTwoInts
+[  0%] Built target _beginner_tutorials_generate_messages_check_deps_Num
+[ 29%] Built target beginner_tutorials_generate_messages_cpp
+[ 35%] Built target beginner_tutorials_generate_messages_py
+[ 47%] Built target beginner_tutorials_generate_messages_nodejs
+[ 64%] Built target beginner_tutorials_generate_messages_eus
+[ 76%] Built target beginner_tutorials_generate_messages_lisp
+[ 82%] Built target beginner_tutorials_generate_messages
+[ 88%] Built target talker
+[100%] Built target listener

@@ -1,0 +1,1 @@
+/home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/.private/beginner_tutorials/share/gennodejs/ros/beginner_tutorials/msg/_index.js
