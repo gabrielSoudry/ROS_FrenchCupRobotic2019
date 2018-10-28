@@ -17,9 +17,9 @@ catkin_package()
 ## Build talker and listener
 include_directories(include ${catkin_INCLUDE_DIRS})
 
-add_executable(talker src/talker.cpp)
- target_link_libraries(talker ${catkin_LIBRARIES})
- add_dependencies(talker wheel_encoder_generate_messages_cpp)
+add_executable(Left_encoder src/Left_encoder.cpp)
+ target_link_libraries(Left_encoder ${catkin_LIBRARIES})
+ add_dependencies(Left_encoder wheel_encoder_generate_messages_cpp)
 
 ##add_executable(listener src/listener.cpp)
 ##target_link_libraries(listener ${catkin_LIBRARIES})
