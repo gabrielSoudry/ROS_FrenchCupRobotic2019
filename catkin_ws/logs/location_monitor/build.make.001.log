@@ -1,4 +1,0 @@
-[35m[1mScanning dependencies of target location_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/location_node.dir/src/location.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/.private/location_monitor/lib/location_monitor/location_node[0m
-[100%] Built target location_node

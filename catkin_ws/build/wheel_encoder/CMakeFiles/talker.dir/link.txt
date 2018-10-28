@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/talker.dir/src/talker.cpp.o  -o "/home/gab/Bureau/Prise en main de Ros/catkin_ws/devel/lib/wheel_encoder/talker" -rdynamic 

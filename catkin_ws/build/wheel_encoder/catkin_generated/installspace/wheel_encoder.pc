@@ -1,0 +1,8 @@
+prefix=/home/gab/Bureau/Prise en main de Ros/catkin_ws/install
+
+Name: wheel_encoder
+Description: Description of wheel_encoder
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/gab/Bureau/Prise en main de Ros/catkin_ws/install/lib 
+Requires: 

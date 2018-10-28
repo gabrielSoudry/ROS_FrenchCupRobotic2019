@@ -1,8 +1,0 @@
-prefix=/home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/install
-
-Name: location_monitor
-Description: Description of location_monitor
-Version: 0.0.0
-Cflags: -I/home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/install/include
-Libs: -L/home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/install/lib 
-Requires: 

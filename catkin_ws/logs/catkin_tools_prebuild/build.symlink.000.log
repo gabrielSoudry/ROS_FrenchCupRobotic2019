@@ -1,8 +1,0 @@
-Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/./setup.sh
-Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/./_setup_util.py
-Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/./setup.bash
-Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/./setup.zsh
-Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/./env.sh
-Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
-Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake
-Symlinking /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/lib/pkgconfig/catkin_tools_prebuild.pc

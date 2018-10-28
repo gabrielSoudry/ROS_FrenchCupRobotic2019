@@ -1,1 +1,0 @@
-/home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/.private/location_monitor/share/roseus/ros/location_monitor/manifest.l

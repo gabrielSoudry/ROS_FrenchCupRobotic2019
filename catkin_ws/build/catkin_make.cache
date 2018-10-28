@@ -1,0 +1,2 @@
+wheel_encoder
+-DCATKIN_DEVEL_PREFIX=/home/gab/Bureau/Prise en main de Ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gab/Bureau/Prise en main de Ros/catkin_ws/install -G Unix Makefiles

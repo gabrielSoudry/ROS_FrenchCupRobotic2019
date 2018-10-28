@@ -1,6 +1,0 @@
-[31m[1mCMake Error[0m at /home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/src/location_monitor/CMakeLists.txt:148 (target_link_libraries):
-  Cannot specify link libraries for target "location" which is not built by
-  this project.
-
-
-make: *** [cmake_check_build_system] Erreur 1

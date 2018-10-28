@@ -1,1 +1,0 @@
-/home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/.private/location_monitor/lib/python2.7/dist-packages/location_monitor/msg/__init__.py

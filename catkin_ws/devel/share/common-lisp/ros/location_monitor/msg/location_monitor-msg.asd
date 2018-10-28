@@ -1,1 +1,0 @@
-/home/gab/catkin_tutorials/create_package_pubsub/catkin_ws/devel/.private/location_monitor/share/common-lisp/ros/location_monitor/msg/location_monitor-msg.asd
