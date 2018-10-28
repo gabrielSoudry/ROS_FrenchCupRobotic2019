@@ -435,7 +435,7 @@ wheel_encoder/preinstall:
 # Target rules for target wheel_encoder/CMakeFiles/talker.dir
 
 # All Build rule for target.
-wheel_encoder/CMakeFiles/talker.dir/all:
+wheel_encoder/CMakeFiles/talker.dir/all: wheel_encoder/CMakeFiles/wheel_encoder_generate_messages_cpp.dir/all
 	$(MAKE) -f wheel_encoder/CMakeFiles/talker.dir/build.make wheel_encoder/CMakeFiles/talker.dir/depend
 	$(MAKE) -f wheel_encoder/CMakeFiles/talker.dir/build.make wheel_encoder/CMakeFiles/talker.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/gab/Bureau/Prise en main de Ros/catkin_ws/build/CMakeFiles" --progress-num=12,13 "Built target talker"
