@@ -7,7 +7,9 @@
             },
             "includePath": [
                 "/opt/ros/kinetic/include",
-                "/usr/include"
+                "/usr/include",
+                "${workspaceFolder}/src/dvb_hardware/include",
+                "${workspaceFolder}/src/dvb_hardware/include"
             ],
             "name": "Linux",
             "intelliSenseMode": "gcc-x64"

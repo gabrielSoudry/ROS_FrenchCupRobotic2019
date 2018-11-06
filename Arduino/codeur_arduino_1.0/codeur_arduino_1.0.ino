@@ -31,7 +31,7 @@ ros::Publisher chatter("Encodeur Gauche", &str_msg); // Test uniquement sur l'en
 #ifdef DEBUG_SERIAL
 #define DEBUG_PRINT(str)   Serial.print(str);
 #define DEBUG_PRINTLN(str) Serial.println(str);
-#else
+# 
 #define DEBUG_PRINT(str)
 #define DEBUG_PRINTLN(str)
 #endif

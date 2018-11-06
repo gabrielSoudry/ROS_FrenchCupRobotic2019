@@ -1,2 +1,2 @@
-wheel_encoder
+dvb_hardware:encoder_controller
 -DCATKIN_DEVEL_PREFIX=/home/gab/Bureau/Prise en main de Ros/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gab/Bureau/Prise en main de Ros/catkin_ws/install -G Unix Makefiles

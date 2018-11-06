@@ -1,0 +1,8 @@
+prefix=/home/gab/Bureau/Prise en main de Ros/catkin_ws/devel
+
+Name: encoder_controller
+Description: Description of encoder_controller
+Version: 0.0.0
+Cflags: -I/home/gab/Bureau/Prise en main de Ros/catkin_ws/src/encoder_controller/include
+Libs: -L/home/gab/Bureau/Prise en main de Ros/catkin_ws/devel/lib -lencoder_controller
+Requires: roscpp
