@@ -1,8 +1,0 @@
-prefix=/home/gab/Bureau/Prise en main de Ros/catkin_ws/devel
-
-Name: hardware
-Description: Description of hardware
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/gab/Bureau/Prise en main de Ros/catkin_ws/devel/lib 
-Requires: 

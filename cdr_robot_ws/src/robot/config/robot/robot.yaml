@@ -1,0 +1,26 @@
+frequency: 0.001
+debug_mode: true
+robot:
+  base:
+    motor:
+      output:
+        min: 0
+        max: 100
+      left:
+        pinPWM: 3
+        pinDir1: 4
+        pinDir2: 5
+      right:
+        pinPwm: 5
+        pinDir1: 6
+        pinDir2: 20
+    encoder:
+      left: 
+        pinA: 7
+        pinB: 8
+      right:
+        pinA: 9
+        pinB: 10
+    ultrasonic:
+      middle:
+        pinTRIGG: 11

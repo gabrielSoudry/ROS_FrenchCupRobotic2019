@@ -1,0 +1,2 @@
+robot_cdr_description:table_cdr_gazebo
+-DCATKIN_DEVEL_PREFIX=/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_simulation_ws/devel -DCMAKE_INSTALL_PREFIX=/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_simulation_ws/install -G Unix Makefiles

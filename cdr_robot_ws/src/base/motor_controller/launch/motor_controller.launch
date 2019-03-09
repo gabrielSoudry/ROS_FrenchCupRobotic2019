@@ -1,0 +1,5 @@
+<launch>
+    <group ns="motor">
+        <node name="left" pkg="motor_controller" type="motor_controller" output="screen"/>
+    </group>
+</launch>

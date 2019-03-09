@@ -1,0 +1,5 @@
+<launch>
+    <group ns="encoder">
+        <node name="left" pkg="encoder_controller" type="encoder_controller" output="screen"/>
+    </group>
+</launch>
