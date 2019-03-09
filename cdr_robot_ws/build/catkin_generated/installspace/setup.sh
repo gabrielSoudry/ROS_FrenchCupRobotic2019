@@ -10,7 +10,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/install}
+: ${_CATKIN_SETUP_DIR:=/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/install}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

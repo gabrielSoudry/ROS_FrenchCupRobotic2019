@@ -6,59 +6,49 @@
 
 #IncludeRegexTransform: 
 
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/encoder.h
-dvb_spinner/dvb_spinner.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/dvb_spinner/dvb_spinner.h
-std_msgs/Int32.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/std_msgs/Int32.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/encoder.h
+dvb_hardware/hardware.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/dvb_hardware/hardware.h
 
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/hardware.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/hardware.h
 stdio.h
 -
 vector
 -
 ros/ros.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/ros/ros.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/ros/ros.h
 ros/console.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/ros/console.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/ros/console.h
 std_msgs/Int32.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/std_msgs/Int32.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/std_msgs/Int32.h
 sensor_msgs/Range.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/sensor_msgs/Range.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/sensor_msgs/Range.h
 
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/motor.h
-dvb_spinner/dvb_spinner.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/dvb_spinner/dvb_spinner.h
-std_msgs/Int32.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/std_msgs/Int32.h
-
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/ultrasonic_sensor.h
-dvb_spinner/dvb_spinner.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/dvb_spinner/dvb_spinner.h
-std_msgs/Int32.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/std_msgs/Int32.h
-
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/encoder.cpp
-dvb_hardware/encoder.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/dvb_hardware/encoder.h
-
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/hardware.cpp
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/motor.h
 dvb_hardware/hardware.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/dvb_hardware/hardware.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/dvb_hardware/hardware.h
 
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/motor.cpp
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/ultrasonic_sensor.h
+dvb_hardware/hardware.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/include/dvb_hardware/dvb_hardware/hardware.h
+
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/encoder.cpp
+dvb_hardware/encoder.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/dvb_hardware/encoder.h
+
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/hardware.cpp
+dvb_hardware/hardware.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/dvb_hardware/hardware.h
+
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/motor.cpp
 dvb_hardware/motor.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/dvb_hardware/motor.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/dvb_hardware/motor.h
 wiringPi.h
 -
 
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/ultrasonic_sensor.cpp
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/ultrasonic_sensor.cpp
 dvb_hardware/ultrasonic_sensor.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/dvb_hardware/ultrasonic_sensor.h
-
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_spinner/include/dvb_spinner/dvb_spinner.h
-ros/ros.h
-/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_spinner/include/dvb_spinner/ros/ros.h
+/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_hardware/src/dvb_hardware/ultrasonic_sensor.h
 
 /opt/ros/kinetic/include/ros/advertise_options.h
 ros/forwards.h
@@ -771,6 +761,4 @@ vector
 -
 time.h
 -
-
-/usr/local/include/wiringPi.h
 

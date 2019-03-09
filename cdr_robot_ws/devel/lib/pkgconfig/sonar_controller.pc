@@ -1,0 +1,8 @@
+prefix=/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/devel
+
+Name: sonar_controller
+Description: Description of sonar_controller
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/devel/lib 
+Requires: 

@@ -1,0 +1,35 @@
+frequency: 0.001
+
+motor_right/pinDirection: 5
+motor_right/pinDirection2: 4
+motor_right/pinPWM : 1
+
+
+motor_left/pinDirection: 2
+motor_left/pinDirection2: 0
+motor_left/pinPWM : 23
+
+
+
+robot:
+  motor:
+    output_min: 0
+    output_max: 100
+    left:
+      pinPWM: 1
+      pinDirection: 4
+      pinDirection2: 5
+    right:
+      pinPwm: 26
+      pinDirection: 0
+      pinDirection2: 2
+  encoder:
+    left: 
+      pinA: 7
+      pinB: 8
+    right:
+      pinA: 9
+      pinB: 10
+  ultrasonic:
+    middle:
+      pinTRIGG: 11

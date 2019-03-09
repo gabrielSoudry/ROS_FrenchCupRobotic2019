@@ -7,9 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/devel:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/devel/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/build"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/devel/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src:$ROS_PACKAGE_PATH"
+export PWD="/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/build"
+export ROS_PACKAGE_PATH="/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src:/home/gab/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src:/opt/ros/kinetic/share"

@@ -1,0 +1,52 @@
+<launch>
+
+                <node name="servo_controller" pkg="rosserial_python" type="serial_node.py" output="screen">
+                    <param name="port" value="/dev/ttyACM0"/>
+                </node>
+
+
+    <group ns="robot">
+        <group ns="base">
+            <group ns="wheel">
+
+                <node name="motor_controller" pkg="rosserial_python" type="serial_node.py" output="screen">
+                    <param name="port" value="/dev/ttyACM1"/>
+                </node>
+
+                <group ns="left">
+                    <node name="encoder" pkg="rosserial_python" type="serial_node.py" output="screen">
+                        <param name="port" value="/dev/ttyUSB0"/>
+                    </node>
+                    <node name="pid" pkg="pid" type="controller" output="screen">
+                        <param name="Kp" value="1" />
+                        <param name="Ki" value="4.375" />
+                        <param name="Kd" value="0.252" />
+                        <param name="upper_limit" value="310" />
+                        <param name="lower_limit" value="-310" />
+                        <param name="windup_limit" value="0.1" />
+                        <param name="max_loop_frequency" value="100.0" />
+                        <param name="min_loop_frequency" value="100.0" />
+                    </node>
+                </group>
+                
+                <group ns="right">
+                    <node name="encoder" pkg="rosserial_python" type="serial_node.py" output="screen">
+                        <param name="port" value="/dev/ttyUSB1"/>
+                    </node>
+                    <node name="pid" pkg="pid" type="controller" output="screen">
+                        <param name="Kp" value="1" />
+                        <param name="Ki" value="4.375" />
+                        <param name="Kd" value="0.252" />
+                        <param name="upper_limit" value="310" />
+                        <param name="lower_limit" value="-310" />
+                        <param name="windup_limit" value="0.1" />
+                        <param name="max_loop_frequency" value="100.0" />
+                        <param name="min_loop_frequency" value="100.0" />
+                    </node>
+                </group>
+            </group>
+	
+            <!-- <node name="controller" pkg="move_base_controller" type="move_base_controller" output="screen"/> -->
+        </group>
+    </group>
+</launch>  

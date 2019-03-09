@@ -14,11 +14,7 @@
                 "${workspaceFolder}/src/robot_path_planning/include",
                 "${workspaceFolder}/src/ROS_Libraries/dvb_control/include",
                 "${workspaceFolder}/devel/include",
-                "${workspaceFolder}/src/ROS_Libraries/dvb_hardware/include",
-                "${workspaceFolder}/src/ROS_Libraries/dvb_map/include",
-                "${workspaceFolder}/src/ROS_Libraries/dvb_navigation/include",
-                "${workspaceFolder}/src/ROS_Libraries/dvb_spinner/include",
-                "${workspaceFolder}/src/ROS_Libraries/dvb_control/include"
+                "${workspaceFolder}/src/ROS_Libraries/dvb_hardware/include"
             ],
             "name": "Linux",
             "intelliSenseMode": "gcc-x64"
