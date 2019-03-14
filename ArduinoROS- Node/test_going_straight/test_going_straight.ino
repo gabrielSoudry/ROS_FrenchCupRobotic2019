@@ -12,7 +12,7 @@ const int motor_power = 100;      // 0-400 (negative value -400-0 for other dire
 const int motor_offset = 5;       // Diff. when driving straight
 const int wheel_d = 60;           // Wheel diameter (mm)
 const float wheel_c = PI * wheel_d; // Wheel circumference (mm) 
-const int counts_per_rev = 1024;   // (4 pairs N-S) * (48:1 gearbox) * (2 falling/rising edges) = 384 
+const int counts_per_rev = 1024;  
 
 
 // Globals
@@ -125,10 +125,9 @@ void driveStraight(float dist, int power) {
   float temp4 = (float) enc_r;
   
   sprintf(log_msg, "Cmd is = %d, CmG is = %d, num_ticks_l :%d, num_ticks_d : %d ", (int)temp,(int)temp2,(int)temp3,(int)temp4 );
-*/
-
-  delay(10);
   nh.loginfo(log_msg);  
+*/
+  delay(10);
   }
    
   // Brake
