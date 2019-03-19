@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/gab/Bureau/Prise en main de Ros/Catkin_ws_test/src/correction/src/test_correction.cpp
+/home/gab/Bureau/Catkin_ws_test/src/correction/src/test_correction.cpp
 ros/ros.h
-/home/gab/Bureau/Prise en main de Ros/Catkin_ws_test/src/correction/src/ros/ros.h
+/home/gab/Bureau/Catkin_ws_test/src/correction/src/ros/ros.h
 std_msgs/String.h
-/home/gab/Bureau/Prise en main de Ros/Catkin_ws_test/src/correction/src/std_msgs/String.h
+/home/gab/Bureau/Catkin_ws_test/src/correction/src/std_msgs/String.h
 std_msgs/Int16.h
 -
 std_msgs/Float64.h

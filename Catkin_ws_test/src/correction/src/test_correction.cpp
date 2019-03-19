@@ -35,8 +35,8 @@ int main(int argc, char **argv)
 {
   ros::init(argc, argv, "talker");
   ros::NodeHandle n;
-  ros::Subscriber sub = n.subscribe("/robot/base/encoder/left/state",1000, messageLeft);
-  ros::Subscriber sub2 = n.subscribe("/robot/base/encoder/right/state",1000, messageRight);
+  ros::Subscriber sub = n.subscribe("/robot/base/wheel/right/state",1000, messageLeft);
+  ros::Subscriber sub2 = n.subscribe("/robot/base/wheel/right/state",1000, messageRight);
   ros::Rate loop_rate(10);
   ros::Publisher pub = n.advertise<std_msgs::Float64>("/robot/base/wheel/right/control_effort", 1000);
   ros::Publisher pub2 = n.advertise<std_msgs::Float64>("/robot/base/wheel/left/control_effort", 1000);
