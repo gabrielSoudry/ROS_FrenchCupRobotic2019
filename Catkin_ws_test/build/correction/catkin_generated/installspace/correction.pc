@@ -1,0 +1,8 @@
+prefix=/home/gab/Bureau/Prise en main de Ros/Catkin_ws_test/install
+
+Name: correction
+Description: Description of correction
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/gab/Bureau/Prise en main de Ros/Catkin_ws_test/install/lib 
+Requires: 

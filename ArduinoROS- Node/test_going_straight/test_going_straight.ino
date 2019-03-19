@@ -8,7 +8,7 @@ DualVNH5019MotorShield md; // Motor
 
 // Parameters
 const int drive_distance = 10000;   // cm
-const int motor_power = 100;      // 0-400 (negative value -400-0 for other direction)
+const int motor_power = 60;      // 0-400 (negative value -400-0 for other direction)
 const int motor_offset = 5;       // Diff. when driving straight
 const int wheel_d = 60;           // Wheel diameter (mm)
 const float wheel_c = PI * wheel_d; // Wheel circumference (mm) 
@@ -23,7 +23,7 @@ unsigned long enc_r = 0; //value of encoder right
 
 // Update value of encoder
 void messageRight( const std_msgs::Int16& toggle_msg){
-   //nh.loginfo("msg received");
+   nh.loginfo("msg received");
   enc_l = -toggle_msg.data;
 }
 
@@ -40,16 +40,19 @@ ros::Subscriber<std_msgs::Int16> sub2("/robot/base/encoder/right/state", message
 
 void setup() {
   md.init();
-  nh.getHardware()->setBaud(115200);
   nh.initNode();
   nh.subscribe(sub);
   nh.subscribe(sub2);
   driveStraight(drive_distance, motor_power); // Straight line (Maybe ... )
+
+
 }
 
 
 
 void loop() {
+
+  
 }
 
 
@@ -81,7 +84,7 @@ void driveStraight(float dist, int power) {
 
 
   // Drive until one of the encoders reaches desired count
-  while ( (enc_l < target_count) && (enc_r < target_count) ) {
+  while ( (enc_l < 2000) && (enc_r < 2000) ) {
      nh.spinOnce();
     
     // Sample number of encoder ticks
@@ -116,7 +119,7 @@ void driveStraight(float dist, int power) {
       power_r -= motor_offset;
     }
 
-/* 
+
   // Debug :  (Verifier les valeurs des Encodeur)
   char log_msg [150];
   float temp = (float) power_l;
@@ -126,7 +129,7 @@ void driveStraight(float dist, int power) {
   
   sprintf(log_msg, "Cmd is = %d, CmG is = %d, num_ticks_l :%d, num_ticks_d : %d ", (int)temp,(int)temp2,(int)temp3,(int)temp4 );
   nh.loginfo(log_msg);  
-*/
+
   delay(10);
   }
    
