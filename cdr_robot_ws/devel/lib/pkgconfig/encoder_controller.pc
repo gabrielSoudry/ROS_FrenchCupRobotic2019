@@ -1,8 +1,0 @@
-prefix=/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/devel
-
-Name: encoder_controller
-Description: Description of encoder_controller
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/devel/lib 
-Requires: 

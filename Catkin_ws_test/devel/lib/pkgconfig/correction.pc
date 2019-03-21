@@ -1,8 +1,8 @@
-prefix=/home/gab/Bureau/Prise en main de Ros/Catkin_ws_test/devel
+prefix=/home/gab/Prise-en-main-de-Ros/Catkin_ws_test/devel
 
 Name: correction
 Description: Description of correction
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/gab/Bureau/Prise en main de Ros/Catkin_ws_test/devel/lib 
+Libs: -L/home/gab/Prise-en-main-de-Ros/Catkin_ws_test/devel/lib 
 Requires: 

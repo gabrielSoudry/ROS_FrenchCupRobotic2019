@@ -7,5 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/build"
-export ROS_PACKAGE_PATH="/home/gab/Documents/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src:/home/gab/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src:/opt/ros/kinetic/share"
+export CMAKE_PREFIX_PATH="/home/gab/Prise-en-main-de-Ros/cdr_robot_ws/devel:$CMAKE_PREFIX_PATH"
+export PWD="/home/gab/Prise-en-main-de-Ros/cdr_robot_ws/build"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/gab/Prise-en-main-de-Ros/cdr_robot_ws/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/gab/Prise-en-main-de-Ros/cdr_robot_ws/src:$ROS_PACKAGE_PATH"

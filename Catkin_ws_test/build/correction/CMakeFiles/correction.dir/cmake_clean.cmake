@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/correction.dir/src/test_correction.cpp.o"
-  "/home/gab/Bureau/Prise en main de Ros/Catkin_ws_test/devel/lib/correction/correction.pdb"
-  "/home/gab/Bureau/Prise en main de Ros/Catkin_ws_test/devel/lib/correction/correction"
+  "CMakeFiles/correction.dir/src/test.cpp.o"
+  "/home/gab/Prise-en-main-de-Ros/Catkin_ws_test/devel/lib/correction/correction.pdb"
+  "/home/gab/Prise-en-main-de-Ros/Catkin_ws_test/devel/lib/correction/correction"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/gab/Bureau/Prise en main de Ros/Catkin_ws_test/install")
+  set(CMAKE_INSTALL_PREFIX "/home/gab/Prise-en-main-de-Ros/Catkin_ws_test/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/gab/Bureau/Prise en main de Ros/Catkin_ws_test/build/gtest/gtest/cmake_install.cmake")
+  include("/home/gab/Prise-en-main-de-Ros/Catkin_ws_test/build/gtest/gtest/cmake_install.cmake")
 
 endif()
 

@@ -35,8 +35,8 @@ int main(int argc, char **argv)
 {
   ros::init(argc, argv, "talker");
   ros::NodeHandle n;
-  ros::Subscriber sub = n.subscribe("/robot/base/encoder/left/state",1000, messageLeft);
-  ros::Subscriber sub2 = n.subscribe("/robot/base/encoder/right/state",1000, messageRight);
+  ros::Subscriber sub = n.subscribe("/robot/base/wheel/right/state",1000, messageLeft);
+  ros::Subscriber sub2 = n.subscribe("/robot/base/wheel/right/state",1000, messageRight);
   ros::Rate loop_rate(10);
   ros::Publisher pub = n.advertise<std_msgs::Float64>("/robot/base/wheel/right/control_effort", 1000);
   ros::Publisher pub2 = n.advertise<std_msgs::Float64>("/robot/base/wheel/left/control_effort", 1000);
@@ -60,7 +60,7 @@ int main(int argc, char **argv)
  //float num_rev = (dist * 10) / wheel_c;  // Convert to mm
  // unsigned long target_count = num_rev * counts_per_rev;
 
-  while (ros::ok() && ((enc_l < 2000) && (enc_r < 2000)))
+  while (ros::ok() && ((enc_l < 7000) && (enc_r < 7000)))
   {
     num_ticks_l = enc_l;
    num_ticks_r = enc_r;
@@ -97,14 +97,14 @@ int main(int argc, char **argv)
     
     // If left is faster, slow it down and speed up right
     if ( diff_l > diff_r ) {
-      power_l -= motor_offset;
-      power_r += motor_offset;
+      power_l -= (diff_l-diff_r)*0.0914;
+ 
     }
 
     // If right is faster, slow it down and speed up left
     if ( diff_l < diff_r ) {
-      power_l += motor_offset;
-      power_r -= motor_offset;
+      power_l += (diff_r-diff_l)*0.08;
+     
     }
     
     ROS_INFO("Gauche %d Droite %d, Encoder Gauche %d, Encoder Droite : %d", power_l,power_r,enc_l,enc_r);

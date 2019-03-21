@@ -135,7 +135,7 @@ include_directories(
 ## The recommended prefix ensures that target names across packages don't collide
 # add_executable(${PROJECT_NAME}_node src/correction_node.cpp)
 
-add_executable(correction src/test_correction.cpp)
+add_executable(correction src/test.cpp)
 target_link_libraries(correction ${catkin_LIBRARIES})
 
 ## Rename C++ executable without prefix
