@@ -1,0 +1,22 @@
+<launch>
+   <node name="correction" pkg="correction" type="correction" output="screen"/>
+    <group ns="robot">
+        <group ns="base">
+            <group ns="wheel">
+                <group ns="left">
+                    <node name="encoder" pkg="rosserial_python" type="serial_node.py" output="screen">
+                        <param name="port" value="/dev/ttyUSB0"/>
+                    </node>
+                    <node name="motor" pkg="rosserial_python" type="serial_node.py" output="screen">
+                        <param name="port" value="/dev/ttyACM0"/>
+                    </node>
+                </group>
+                <group ns="right">
+                    <node name="encoder" pkg="rosserial_python" type="serial_node.py" output="screen">
+                        <param name="port" value="/dev/ttyUSB1"/>
+                    </node>
+                </group>
+            </group>	
+        </group>
+    </group>
+</launch>   
