@@ -405,6 +405,21 @@ correction/fast:
 	cd /home/gab/Prise-en-main-de-Ros/Catkin_ws_test/build && $(MAKE) -f correction/CMakeFiles/correction.dir/build.make correction/CMakeFiles/correction.dir/build
 .PHONY : correction/fast
 
+# Convenience name for target.
+correction/CMakeFiles/correction2.dir/rule:
+	cd /home/gab/Prise-en-main-de-Ros/Catkin_ws_test/build && $(MAKE) -f CMakeFiles/Makefile2 correction/CMakeFiles/correction2.dir/rule
+.PHONY : correction/CMakeFiles/correction2.dir/rule
+
+# Convenience name for target.
+correction2: correction/CMakeFiles/correction2.dir/rule
+
+.PHONY : correction2
+
+# fast build rule for target.
+correction2/fast:
+	cd /home/gab/Prise-en-main-de-Ros/Catkin_ws_test/build && $(MAKE) -f correction/CMakeFiles/correction2.dir/build.make correction/CMakeFiles/correction2.dir/build
+.PHONY : correction2/fast
+
 src/test.o: src/test.cpp.o
 
 .PHONY : src/test.o
@@ -432,6 +447,33 @@ src/test.cpp.s:
 	cd /home/gab/Prise-en-main-de-Ros/Catkin_ws_test/build && $(MAKE) -f correction/CMakeFiles/correction.dir/build.make correction/CMakeFiles/correction.dir/src/test.cpp.s
 .PHONY : src/test.cpp.s
 
+src/test2.o: src/test2.cpp.o
+
+.PHONY : src/test2.o
+
+# target to build an object file
+src/test2.cpp.o:
+	cd /home/gab/Prise-en-main-de-Ros/Catkin_ws_test/build && $(MAKE) -f correction/CMakeFiles/correction2.dir/build.make correction/CMakeFiles/correction2.dir/src/test2.cpp.o
+.PHONY : src/test2.cpp.o
+
+src/test2.i: src/test2.cpp.i
+
+.PHONY : src/test2.i
+
+# target to preprocess a source file
+src/test2.cpp.i:
+	cd /home/gab/Prise-en-main-de-Ros/Catkin_ws_test/build && $(MAKE) -f correction/CMakeFiles/correction2.dir/build.make correction/CMakeFiles/correction2.dir/src/test2.cpp.i
+.PHONY : src/test2.cpp.i
+
+src/test2.s: src/test2.cpp.s
+
+.PHONY : src/test2.s
+
+# target to generate assembly for a file
+src/test2.cpp.s:
+	cd /home/gab/Prise-en-main-de-Ros/Catkin_ws_test/build && $(MAKE) -f correction/CMakeFiles/correction2.dir/build.make correction/CMakeFiles/correction2.dir/src/test2.cpp.s
+.PHONY : src/test2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -439,8 +481,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... edit_cache"
+	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
@@ -460,10 +502,14 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... install/strip"
 	@echo "... correction"
+	@echo "... correction2"
 	@echo "... test"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"
+	@echo "... src/test2.o"
+	@echo "... src/test2.i"
+	@echo "... src/test2.s"
 .PHONY : help
 
 

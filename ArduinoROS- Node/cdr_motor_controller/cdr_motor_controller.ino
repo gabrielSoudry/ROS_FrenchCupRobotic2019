@@ -20,7 +20,7 @@ void onMotorLeftEvent(const std_msgs::Float64& cmd_msg) {
 
 void onMotorRightEvent(const std_msgs::Float64& cmd_msg) {
   double control = map(cmd_msg.data, -1000, 1000, -400, 400);
-  md.setM1Speed(control*0.9);
+  md.setM1Speed(control);
 }
 
 ros::Subscriber<std_msgs::Float64> sub_motor_left(TOPIC_MOTOR_LEFT_NAME, onMotorLeftEvent );

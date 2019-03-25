@@ -490,6 +490,19 @@ correction/fast:
 	$(MAKE) -f correction/CMakeFiles/correction.dir/build.make correction/CMakeFiles/correction.dir/build
 .PHONY : correction/fast
 
+#=============================================================================
+# Target rules for targets named correction2
+
+# Build rule for target.
+correction2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 correction2
+.PHONY : correction2
+
+# fast build rule for target.
+correction2/fast:
+	$(MAKE) -f correction/CMakeFiles/correction2.dir/build.make correction/CMakeFiles/correction2.dir/build
+.PHONY : correction2/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -528,6 +541,7 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... rosgraph_msgs_generate_messages_py"
 	@echo "... correction"
+	@echo "... correction2"
 .PHONY : help
 
 

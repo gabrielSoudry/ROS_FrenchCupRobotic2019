@@ -138,6 +138,12 @@ include_directories(
 add_executable(correction src/test.cpp)
 target_link_libraries(correction ${catkin_LIBRARIES})
 
+
+
+add_executable(correction2 src/test2.cpp)
+target_link_libraries(correction2 ${catkin_LIBRARIES})
+
+
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
 ## target back to the shorter version for ease of user use
