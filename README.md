@@ -1,25 +1,45 @@
-# FRENCH CUP OF ROBOTIC 2019 
+
+# Presentation
+Project for the french cup of robotic 2019. https://www.coupederobotique.fr/lacoupe/
 
 This ROS stack includes an Arduino library and a collection of ROS packages for controlling an Arduino-based robot using standard ROS messages and services. 
 
-Project for the french cup of robotic 2019. https://www.coupederobotique.fr/lacoupe/
-
-[![Alt text](https://img.youtube.com/vi/CekWTSOTMr8/0.jpg)](https://www.youtube.com/watch?v=CekWTSOTMr8)
-
 
 Features of the stack include:
-
-- Direct support for Ping sonar
 - Controller Speed and Position using ROS PID 
+- Control servo motor
+- Direct support for Ping sonar
 - GUI Interface for debugging the robot 
 
 Interface debug : 
-![Screenshot](GUI_ROBOT.png)
+![Screenshot](GUI_Robot.png)
 
 
-Hardware : 
+# Hardware : 
 
 - Pololu VNH5019 dual motor controller shield (http://www.pololu.com/catalog/product/2502) 
 - Faulhaber 2642 cxr motor 
 - Rotary encoder kubler X388741 
+
+# Installation Guide 
+First you need Ubuntu 16.04 with Ros Kinetic [http://wiki.ros.org/kinetic](http://wiki.ros.org/kinetic)
+
+    $ git clone [https://github.com/gabi22top/ROS_FrenchCupRobotic2019](https://github.com/gabi22top/ROS_FrenchCupRobotic2019)ter code here
+    $ cd ~/cdr_robot_ws/
+    $ catkin_make
+
+For the debugging GUI you will need PYQT5
+
+`$ sudo apt-get install python3-pyqt5`   
+And just run the gui : 
+
+    $ cd /Project Interface
+    $ Python3 ./MainWindows.py
+
+# More about the project :
+Link of the youtube video : 
+
+- [![Alt text](https://img.youtube.com/vi/CekWTSOTMr8/0.jpg)](https://www.youtube.com/watch?v=CekWTSOTMr8) "
+
+
 
