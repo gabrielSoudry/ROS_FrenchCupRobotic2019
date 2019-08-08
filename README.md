@@ -12,8 +12,10 @@ Features of the stack include:
 - GUI Interface for debugging the robot 
 
 Interface debug : 
-![Screenshot](GUI_Robot.png)
 
+
+
+<img src="GUI_Robot.png" width="70%" align="middle">
 
 # Hardware : 
 
