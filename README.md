@@ -40,7 +40,11 @@ And just run the gui :
 
 # More about the project :
 Link of the youtube video : 
-- [![Alt text](https://img.youtube.com/vi/CekWTSOTMr8/0.jpg)](https://www.youtube.com/watch?v=CekWTSOTMr8) "
+
+- [![Alt text](https://img.youtube.com/vi/CekWTSOTMr8/0.jpg)](https://www.youtube.com/watch?v=CekWTSOTMr8) 
+
+Don't hesitate to contact me for more information about this project : 
+gabriel_s@hotmail.fr
 
 
 
