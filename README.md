@@ -28,9 +28,11 @@ First you need Ubuntu 16.04 with Ros Kinetic [http://wiki.ros.org/kinetic](http:
     $ cd ~/cdr_robot_ws/
     $ catkin_make
 
+
 For the debugging GUI you will need PYQT5
 
-`$ sudo apt-get install python3-pyqt5`   
+    $ sudo apt-get install python3-pyqt5
+
 And just run the gui : 
 
     $ cd /Project Interface
@@ -38,7 +40,6 @@ And just run the gui :
 
 # More about the project :
 Link of the youtube video : 
-
 - [![Alt text](https://img.youtube.com/vi/CekWTSOTMr8/0.jpg)](https://www.youtube.com/watch?v=CekWTSOTMr8) "
 
 
