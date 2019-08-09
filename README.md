@@ -12,8 +12,10 @@ Features of the stack include:
 - GUI Interface for debugging the robot 
 
 Interface debug : 
-![Screenshot](GUI_Robot.png)
 
+
+
+<img src="GUI_Robot.png" width="70%" align="middle">
 
 # Hardware : 
 
@@ -28,9 +30,11 @@ First you need Ubuntu 16.04 with Ros Kinetic [http://wiki.ros.org/kinetic](http:
     $ cd ~/cdr_robot_ws/
     $ catkin_make
 
+
 For the debugging GUI you will need PYQT5
 
-`$ sudo apt-get install python3-pyqt5`   
+    $ sudo apt-get install python3-pyqt5
+
 And just run the gui : 
 
     $ cd /Project Interface
@@ -39,7 +43,10 @@ And just run the gui :
 # More about the project :
 Link of the youtube video : 
 
-- [![Alt text](https://img.youtube.com/vi/CekWTSOTMr8/0.jpg)](https://www.youtube.com/watch?v=CekWTSOTMr8) "
+- [![Alt text](https://img.youtube.com/vi/CekWTSOTMr8/0.jpg)](https://www.youtube.com/watch?v=CekWTSOTMr8) 
+
+Don't hesitate to contact me for more information about this project : 
+gabriel_s@hotmail.fr
 
 
 
