@@ -12,6 +12,10 @@ Features of the stack include:
 - Direct support for Ping sonar
 - GUI Interface for debugging the robot 
 
+CAD            |  Real Word Robot
+:-------------------------:|:-------------------------:
+![](robot_CAD.jpeg)  |  ![](the_robot.jpeg)
+
 Debugging Interfaces : 
 
 <img src="GUI_Robot.png" width="70%" align="middle">
