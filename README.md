@@ -1,8 +1,7 @@
 
 # Presentation
-Project for the french cup of robotic 2019.
+Project for the french cup of robotic 2019. 
 ### **[Link to the website of the Competition](https://www.coupederobotique.fr/lacoupe/)**
-
 
 This ROS stack includes an Arduino library and a collection of ROS packages for controlling an Arduino-based robot using standard ROS messages and services.
 
@@ -24,10 +23,10 @@ Debugging Interfaces :
 
 # Hardware : 
 
-- Pololu VNH5019 dual motor controller shield (http://www.pololu.com/catalog/product/2502) 
-- Faulhaber 2642 cxr motor 
-- Rotary encoder kubler X388741 
-- Nucleo ESP32
+- [Pololu VNH5019 dual motor controller shield](http://www.pololu.com/catalog/product/2502) 
+- [Faulhaber 2642 cxr motor](https://www.faulhaber.com/fr/produits/series/2642cxr/)
+- [Rotary encoder kubler](https://www.kuebler.com/en/products/measurement/encoders/product-finder/product-details/2400)
+- [Nucleo ESP32](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)
 - Arduino Uno (ATMEGA 328p)
 - Raspberry Pi 3
 
@@ -51,7 +50,7 @@ And just run the gui :
 
 # More about the project :
 ### **[Link of the youtube video](https://www.youtube.com/watch?v=CekWTSOTMr8)**
-### **[Association](http://davincibot.org/)**
+### **[Association](http://davincibot.org/) (Project team of this competition 12 Members)**
 
 
 Don't hesitate to contact me for more information about this project : 
