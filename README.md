@@ -16,6 +16,8 @@ CAD            |  Real Word Robot
 :-------------------------:|:-------------------------:
 ![](robot_CAD.jpeg)  |  ![](the_robot.jpeg)
 
+(CAO by [Johny Lin](https://github.com/JohnySparkFall))
+
 Debugging Interfaces : 
 
 <img src="GUI_Robot.png" width="70%" align="middle">
