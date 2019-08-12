@@ -49,7 +49,7 @@ And just run the gui :
     $ Python3 ./MainWindows.py
 
 # More about the project :
-### **[Link of the youtube video](https://www.youtube.com/watch?v=CekWTSOTMr8)**
+### **[Video of the cup 2019](https://www.youtube.com/watch?v=CekWTSOTMr8)**
 ### **[Association](http://davincibot.org/) (Project team of this competition 12 Members)**
 
 
