@@ -25,8 +25,12 @@ Debugging Interfaces :
 - Pololu VNH5019 dual motor controller shield (http://www.pololu.com/catalog/product/2502) 
 - Faulhaber 2642 cxr motor 
 - Rotary encoder kubler X388741 
+- Nucleo ESP32
+- Arduino Uno (ATMEGA 328p)
+- Raspberry Pi 3
 
-# Installation Guide 
+# Installation Guide (Work in progress) 
+
 First you need Ubuntu 16.04 with Ros Kinetic : [ROS kinetic](http://wiki.ros.org/kinetic)
 
     $ git clone [https://github.com/gabi22top/ROS_FrenchCupRobotic2019](https://github.com/gabi22top/ROS_FrenchCupRobotic2019)ter code here
