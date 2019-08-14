@@ -29,6 +29,7 @@ Debugging Interfaces :
 - [Nucleo ESP32](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)
 - Arduino Uno (ATMEGA 328p)
 - Raspberry Pi 3
+- Sensor TOF (future implementation in this repository)
 
 # Installation Guide (Work in progress) 
 
