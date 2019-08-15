@@ -33,7 +33,7 @@ Debugging Interfaces :
 
 # Installation Guide (Work in progress) 
 
-First you need Ubuntu 16.04 with Ros Kinetic : [ROS kinetic](http://wiki.ros.org/kinetic)
+First you need Ubuntu 16.04 (Ubuntu Mate 16.04 on the Raspberry Pi 3) with Ros Kinetic : [ROS kinetic](http://wiki.ros.org/kinetic)
 
     $ git clone [https://github.com/gabi22top/ROS_FrenchCupRobotic2019](https://github.com/gabi22top/ROS_FrenchCupRobotic2019)ter code here
     $ cd ~/cdr_robot_ws/
