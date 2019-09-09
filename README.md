@@ -45,7 +45,7 @@ Debugging Interfaces :
 First you need Ubuntu 16.04 (Ubuntu Mate 16.04 on the Raspberry Pi 3) with Ros Kinetic : [ROS kinetic](http://wiki.ros.org/kinetic)
 
     $ git clone https://github.com/gabi22top/ROS_FrenchCupRobotic2019.git
-    $ cd ~/cdr_robot_ws/
+    $ cd cd ROS_FrenchCupRobotic2019/cdr_robot_ws/
     $ catkin_make
 
 To launch the ros node pid quickly: 
