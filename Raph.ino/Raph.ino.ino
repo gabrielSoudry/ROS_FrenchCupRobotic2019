@@ -72,42 +72,8 @@ Millisdepart = millis();
 
 void loop()
 {    
-   
-  if(analogRead(PIN_obst)>400)
-{
-obst = 1;
-
-}
-else
-{
-obst = 0;
-}  
-  currentMillis = millis()-Millisdepart;
-
-//premier quart de tour
-  if(currentMillis <= 2000 + temparret )
-  {
- if(obst==0){
- asservissement2(150, false);
-    }
-    else{
-       asservissement(0, true);
-    }
-  }
-
-//premier quart de tour
-  if(currentMillis > 2000 + temparret )
-  {
- if(obst==0){
- asservissement2(150, false);
-    }
-    else{
-       asservissement(0, true);
-    }
-  }
-
-
-  
+   asservissement(100,false);
+   // affiche le traceur série  
 }
 
 
