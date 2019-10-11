@@ -1,8 +1,0 @@
-prefix=/home/gab/Prise-en-main-de-Ros/cdr_robot_ws/install
-
-Name: robot_pid_controller
-Description: Description of robot_pid_controller
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/gab/Prise-en-main-de-Ros/cdr_robot_ws/install/lib 
-Requires: 

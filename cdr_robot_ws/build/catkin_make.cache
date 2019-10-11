@@ -1,2 +1,0 @@
-deplacement:encoder_controller:motor_controller:param_controller:robot_move_controller:robot_path_planning:robot_pid_controller:sonar_controller
--DCATKIN_DEVEL_PREFIX=/home/gab/Prise-en-main-de-Ros/cdr_robot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/gab/Prise-en-main-de-Ros/cdr_robot_ws/install -G Unix Makefiles

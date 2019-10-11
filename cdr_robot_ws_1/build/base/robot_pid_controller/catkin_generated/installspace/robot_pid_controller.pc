@@ -1,8 +1,0 @@
-prefix=/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/install
-
-Name: robot_pid_controller
-Description: Description of robot_pid_controller
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/install/lib 
-Requires: 

@@ -1,2 +1,0 @@
-ROS_Libraries/dvb_control:ROS_Libraries/dvb_hardware:ROS_Libraries/dvb_map:ROS_Libraries/dvb_navigation:ROS_Libraries/dvb_robot:ROS_Libraries/dvb_spinner:base/encoder_controller:base/motor_controller:base/move_base_controller:base/navigation_controller:base/robot_pid_controller:robot
--DCATKIN_DEVEL_PREFIX=/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/devel -DCMAKE_INSTALL_PREFIX=/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/install -G Unix Makefiles

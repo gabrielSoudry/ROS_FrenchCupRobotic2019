@@ -1,8 +1,0 @@
-prefix=/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/devel
-
-Name: dvb_control
-Description: Description of dvb_control
-Version: 0.0.0
-Cflags: -I/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/src/ROS_Libraries/dvb_control/include
-Libs: -L/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_robot_ws/devel/lib -ldvb_hardware
-Requires: actionlib actionlib_msgs geometry_msgs genmsg roscpp rospy sensor_msgs nav_msgs std_msgs

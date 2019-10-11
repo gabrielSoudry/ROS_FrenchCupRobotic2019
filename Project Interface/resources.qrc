@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="images">
+    <file>images/DaVinciBot_Square.png</file>
+    <file>images/Webp.net-resizeimage.png</file>
+  </qresource>
+</RCC>

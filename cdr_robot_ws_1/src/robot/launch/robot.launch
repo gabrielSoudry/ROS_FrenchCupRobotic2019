@@ -1,6 +1,0 @@
-<launch>
-    <rosparam command="load" file="$(find robot)/config/robot/robot.yaml"/>
-    <group ns="robot">
-        <include file="$(find robot)/launch/base.launch"/>
-    </group>
-</launch>
