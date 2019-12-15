@@ -16,7 +16,6 @@ find_package(dvb_spinner REQUIRED)
 
 find_package(Boost REQUIRED COMPONENTS system)
 
-set(wiringPi_include "/usr/local/include")
 
 
 ###################################
@@ -37,7 +36,6 @@ catkin_package(
 include_directories(
  include
   ${catkin_INCLUDE_DIRS}
-  ${wiringPi_include}
   ${dvb_spinner_INCLUDE_DIRS}
 )
 LINK_DIRECTORIES("/usr/local/lib")
@@ -50,12 +48,10 @@ add_library(dvb_hardware
 
 target_link_libraries(dvb_hardware
   ${catkin_LIBRARIES} 
-  wiringPi
   dvb_spinner
 )
 
 ##target_link_libraries(sonar_controller
-  ## ${catkin_LIBRARIES} wiringPi
  ##)
 
 #############

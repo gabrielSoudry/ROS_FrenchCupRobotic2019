@@ -14,7 +14,6 @@ find_package(catkin REQUIRED COMPONENTS
 
 find_package(dvb_hardware REQUIRED)
 
-set(wiringPi_include "/usr/local/include")
 
 ###################################
 ## catkin specific configuration ##
@@ -34,7 +33,6 @@ include_directories(
  include
   ${catkin_INCLUDE_DIRS}
   ${dvb_hardware_INCLUDE_DIRS}
-  ${wiringPi_include}
 )
 
 LINK_DIRECTORIES("/usr/local/lib")
@@ -43,6 +41,5 @@ add_executable(deplacement_robot src/deplacement.cpp)
 
 target_link_libraries(deplacement_robot
    dvb_hardware
-wiringPi
    ${catkin_LIBRARIES}
 )

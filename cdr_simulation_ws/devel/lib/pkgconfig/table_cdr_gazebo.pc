@@ -1,8 +1,0 @@
-prefix=/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_simulation_ws/devel
-
-Name: table_cdr_gazebo
-Description: Description of table_cdr_gazebo
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/florian/Documents/dvb_ws/DaVinciBot-CDR_ATOM_FACTORY_2019/cdr_simulation_ws/devel/lib 
-Requires: 

@@ -15,7 +15,6 @@ find_package(catkin REQUIRED COMPONENTS
 find_package(dvb_hardware REQUIRED)
 find_package(Boost REQUIRED COMPONENTS system)
 
-##set(wiringPi_include "/usr/local/include")
 
 
 catkin_package(
@@ -33,7 +32,6 @@ include_directories(
  include
   ${catkin_INCLUDE_DIRS}
   ${dvb_hardware_INCLUDE_DIRS}
-##  ${wiringPi_include}
 )
 
 ##LINK_DIRECTORIES("/usr/local/lib")
