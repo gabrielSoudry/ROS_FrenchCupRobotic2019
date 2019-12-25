@@ -25,7 +25,7 @@ TODO Season 2020 :
 
 Robot 2018 / 2019 : 
 
-CAD            |  Real Word Robot
+CAD            |  Real World Robot
 :-------------------------:|:-------------------------:
 ![](https://drive.google.com/uc?export=view&id=14yUv0oozU9kfYxgreVPyoaeZGb_iP_uA)|![](https://drive.google.com/uc?export=view&id=1oBAcLtg5taiQcZHmCrrc9515JcSd4qq-)
 
