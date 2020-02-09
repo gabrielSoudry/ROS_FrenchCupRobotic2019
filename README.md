@@ -27,7 +27,7 @@ Robot 2018 / 2019 :
 
 CAD            |  Real World Robot
 :-------------------------:|:-------------------------:
-![](https://drive.google.com/uc?export=view&id=14yUv0oozU9kfYxgreVPyoaeZGb_iP_uA)|![](https://drive.google.com/uc?export=view&id=1oBAcLtg5taiQcZHmCrrc9515JcSd4qq-)
+![](IHM/images/robot_CAD.jpeg)|![](IHM/images/the_robot.jpeg)
 
 (CAO by [Johny Lin](https://github.com/JohnySparkFall))
 
